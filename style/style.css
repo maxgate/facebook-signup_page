@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 238, 238);
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h2{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-break: anywhere;
+}
+h4{
+    font-size: smaller;
+    color: rgb(70, 69, 69);
+}
+
+hr{
+    border-style: double;
+    border-bottom: none;
+    /* border-width: 1px; */
+    width: 100%;
+    margin: 20px 10px 10px 10px;
+    border-color: rgb(212, 214, 217);
+}
+
+.main-container{
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    height: 100vh;
+    max-width: 1075px;
+}
+
+.heading{
+    align-content: center;
+    justify-content: center;
+    margin-left: 40px ;
+    padding-right: 32px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.fb-logo{
+    /* height: 106px; */
+    width:300px;
+    margin: -28px;
+    padding: 112px 0 16px;
+}
+
+div .fb-logo{
+    font-family: inherit;
+}
+
+.text{
+    display: inline-block;
+    margin: 5;
+    padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    width: 90%;
+    text-rendering: optimizelegibility;
+    letter-spacing: normal;
+    line-break: strict;
+}
+
+.form-container{
+    /* height: 396px; */
+    width: 500px;
+    /* background-color: rgb(255, 255, 255); */
+    margin: 100px 0 0 20px;
+    border-radius: 10px;
+    padding-top:30px ;
+    /* border-style: double; */
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form input{
+    color: rgb(70, 69, 69);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    font-size: medium;
+    border-radius: 5px;
+    border-color: rgb(212, 214, 217);
+    border-style: double;
+}
+
+.form input:active{
+    border-width: 1px;
+    border-color: blue;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:  rgb(25, 103, 210);
+    }
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.forgot-btn{
+	color:  rgb(25, 103, 210);
+	text-decoration: none;
+	padding: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.forgot-btn:hover{
+    cursor: pointer;
+	text-decoration: underline;
+
+}
+
+.create-btn{
+    padding: 5px;
+    width: 60%;
+    height: 45px;
+    margin: 20px 5px 5px 5px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(54, 129, 27);
+    }
+
+.create-btn:hover{
+    cursor: pointer;
+    background-color:  rgb(51, 155, 13);;
+}
+
+    .out-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        /* line-height: 5px; */
+    }
+    .out-form a{
+        padding-right: 5px;
+        text-decoration: none;
+        color: #000 ;
+    }
+
+	.out-form a:hover{
+        cursor: pointer;
+		text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    color: rgb(150, 146, 146);
+    padding: auto;
+}
+
+.footer div{
+    /* text-align: left; */
+    text-decoration: none;
+}
+
+div a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    padding: 10px;
+    margin: 5px;
+}
+ div a:hover{
+    text-decoration: underline;
+ }
+
+ .foot{
+    margin-top: 5px;
+    padding-top:5px;
+ }
+
+.foo{
+    margin-top: 5px;
+    padding-top:5px;
+}
+
+.fo{
+    margin-top: 5px;
+    padding-top:5px;
+}
+
+
+a img{
+    width: 50px;
+    height: 25px;
+    vertical-align: bottom;
+    margin: 0;
+}
